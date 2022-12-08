@@ -1,0 +1,40 @@
+<!--form modal-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Información de contacto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form >
+        <div class="modal-body">                     
+            <div class="mb-3">
+              <label for="nombre" class="col-form-label">
+                  Nombre:</label>
+              <input type="text" name="name" class="form-control" id="name" autofocus [(ngModel)]="contacto.name">
+            </div>       
+            <div class="mb-3">
+              <label class="col-form-label">Correo</label>
+              <input type="email" name="email" class="form-control" id="email" [(ngModel)]="contacto.email">
+            </div>
+            <div class="mb-3">
+              <label class="col-form-label">Telefono</label>
+              <input type="tel" name="phone" class="form-control" id="telefono" [(ngModel)]="contacto.phone">
+            </div> 
+            <div class="mb-3">
+              <label class="col-form-label">Asunto</label>
+              <input type="text" name="message" class="form-control" id="message" [(ngModel)]="contacto.message">
+            </div>         
+        </div>
+        <div class="modal-footer">          
+          <button class="btn btn-primary btn-block" (click)="saveNewContact()">Enviar</button>                      
+        </div>
+        </form>        
+      </div>
+    </div>
+  </div>
+<!--form modal-->
+
+
+
+

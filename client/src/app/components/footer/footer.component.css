@@ -1,0 +1,205 @@
+
+/*Animacion footer*/
+.marg{
+    margin-top: 200px;
+}
+.hrefraiz{
+    text-decoration: none;
+    color: white;
+}
+.hrefraiz:hover{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    background: linear-gradient( #1A2A42, #6291b4);
+    min-height: 100px;
+    padding: 20px 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+   
+}
+footer .social_icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social_icon li{
+    list-style: none;
+}
+footer .social_icon li a{
+    font-size: 2em;    
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.facebook{
+    color: #0CDB9D;      
+}
+.twitter{
+    color: #0CDB9D;
+}
+.instagram{
+    color:  #0CDB9D;
+}
+.linkedin{
+    color: #0CDB9D;       
+    
+}
+
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+    color: white;    
+}
+footer p{
+    color:#fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;    
+    width: 100%;
+    height: 100px;    
+    background: url(../../../assets/images/wave3.png);
+    background-size: 1000px 100px;    
+}
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+}
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
+}
+@keyframes animateWave{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+@keyframes animateWave_02{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+/*Animacion footer*/
+
+/*footer nuevo*/  
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+  
+  .content {
+    height: 70vh;}
+  
+  .footer-20192 {
+    position: relative;
+    color: #fff;
+    padding: 7rem 0;
+    background-color: #141d2a; }    
+    .footer-20192 .container {
+      position: relative; }
+    .footer-20192 h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: 0;
+      line-height: 1.5; }
+    .footer-20192 .links li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+      display: block; }
+      .footer-20192 .links li a {
+        color: #ffffff; }
+        .footer-20192 .links li a:hover {
+          color: #fff; }
+
+    .footer-20192 .social li {
+      display: inline-block;
+      position: relative; }
+      .footer-20192 .social li a {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 3px;
+        padding: 0;        
+        color: #fff; }
+        .facebook{
+         background-color: #2E406E;   
+        }
+        .instagram{
+            background: linear-gradient(#EB605D, #D34899);
+        }
+        .linkedin{
+            background-color: #30556D;
+        }
+        .twitter{
+            background-color: #339DC5;
+        }
+        .footer-20192 .social li a > svg {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+    .footer-20192 .footer-logo {
+      color: #fff;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: .1rem; }
+    .footer-20192 .copyright {
+      color: #666873; }
+    .footer-20192 .cta {
+      -webkit-box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+      box-shadow: -20px -20px 0 0 rgba(52, 58, 64, 0.2);
+      padding: 20px;
+      background-color: #8186d5;
+      top: -150px;
+      position: relative; }
+      .footer-20192 .cta h2, .footer-20192 .cta h3 {
+        line-height: 1.5; }
+      .footer-20192 .cta h3 {
+        font-size: 20px; }
+  
+
+
+        

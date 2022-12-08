@@ -1,0 +1,28 @@
+.imgredonda {
+    width:100px;
+    height:100px;
+    border-radius:150px;
+}
+.centerbtn{
+    text-align: center;
+}
+
+.targetinfo{
+     
+    text-align: center;
+    padding: 1em;
+  }
+.justyf{
+    text-align: center;
+    justify-content: center;
+}
+.padd{
+    padding: 60px;
+}
+
+
+
+
+
+
+

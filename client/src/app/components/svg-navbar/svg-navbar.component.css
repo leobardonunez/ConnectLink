@@ -1,0 +1,61 @@
+.degradado{
+    background: linear-gradient(#150547,#1cb5e0);
+}
+.colorsecundario{
+    background-color: #FF4C29;
+}
+.textcolor{
+     color: white;
+}
+.textcolorsecundario{
+    color: #FF4C29;
+}
+.botonsecundario{
+    background-color: #FF4C29;
+    color: white;
+}
+
+.imgredonda {
+    width:100px;
+    height:100px;
+    border-radius:150px;
+}
+.centerbtn{
+    text-align: center;
+}
+
+.targetinfo{
+     
+    text-align: center;
+    padding: 1em;
+  }
+.justyf{
+    text-align: center;
+    justify-content: center;
+}
+.padd{
+    padding: 60px;
+}
+
+
+/*SVG CURVE*/
+.curved{
+    background: linear-gradient(#1A2A42, #6291b4);
+    color: white;
+    text-align: center;
+}
+
+.curved svg{
+    display: block;    
+}
+.curved.upper{
+    background: linear-gradient(#1cb5e0,#150547);
+}
+/*SVG CURVE*/
+
+
+
+
+
+
+
